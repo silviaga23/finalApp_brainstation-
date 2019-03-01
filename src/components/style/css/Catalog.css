@@ -1,0 +1,14 @@
+.divCatalog__pHeader{
+    background-color: black;
+    color: beige;
+    padding: 1.5rem;
+}
+
+.SearchBarContainer{
+    margin-left: 7rem;
+}
+
+.searchBarContainer__row__input{
+    padding: 0.5rem;
+    width: 90%;
+}

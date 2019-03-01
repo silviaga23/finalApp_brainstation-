@@ -1,0 +1,62 @@
+.divRegister__divForm{
+    padding: 1.8rem;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.divRegister__divForm h3{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.divForm__form__input{
+    width: 100%;
+    padding: 10px 10px;
+    font-size: 1rem;
+    border-radius: 2px;
+    border-style: groove;
+    margin-top: 1.5rem;
+    border: 1px solid #ccc;
+}
+
+.containerLogin__form__input__button{
+    background-color: rgb(72, 145, 145);
+    border-color: #3e8cbb;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.form__inputName{
+    display: flex;
+    justify-content: space-between;
+}
+.form__inputName__name{
+    padding: 10px 10px;
+    font-size: 1rem;
+    border-radius: 2px;
+    border-style: groove;
+    margin-top: 1.5rem;
+    border: 1px solid #ccc;
+    width: 45%;
+}
+
+.form__inputName__lastName{
+    padding: 10px 10px;
+    font-size: 1rem;
+    border-radius: 2px;
+    border-style: groove;
+    margin-top: 1.5rem;
+    border: 1px solid #ccc;
+    width: 47%;
+}
+
+@media screen and (min-width: 767px){
+
+    .divRegister__divForm{
+
+        width: 40%;
+        margin: 0 auto;
+        margin-top: 4rem;
+    }
+}

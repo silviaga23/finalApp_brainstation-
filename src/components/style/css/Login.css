@@ -1,0 +1,47 @@
+.containerLogin__form{
+    padding: 1.8rem;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.containerLogin__form h3{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.containerLogin__form__input input{
+    width: 100%;
+    padding: 10px 10px;
+    font-size: 1rem;
+    border-radius: 2px;
+    border-style: groove;
+    margin-top: 2rem;
+    border: 1px solid #ccc;
+}
+
+.containerLogin__form__input__button{
+    background-color: rgb(72, 145, 145);
+    border-color: #3e8cbb;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.containerLogin__anchorRegister{
+    list-style: none;
+}
+.containerLogin__anchorRegister a{
+    text-decoration: none;
+    margin-left: 0.1rem;
+    color: rgb(72, 145, 145);
+}
+
+@media screen and (min-width: 767px){
+
+    .containerLogin{
+
+        width: 40%;
+        margin: 0 auto;
+        margin-top: 4rem;
+    }
+}

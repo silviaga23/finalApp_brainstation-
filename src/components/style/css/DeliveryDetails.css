@@ -1,0 +1,123 @@
+.divOrderSumary{
+    display: none;
+}
+.form__title{
+    text-align: center;
+}
+.divFormDeliveryDetails__form input{
+    padding: 0.5rem;
+    width: 100%;
+    margin: 0.5rem;
+}
+.divFormDeliveryDetails__form{
+    margin: 0 auto;
+}
+
+.breadcrumb {
+    width: 80%;
+    margin: auto;
+    padding: 1rem;
+}
+.spanCircle{
+    background-color: black;
+    display: inline-block;
+    color: white;
+    height: 1.5rem;
+    width: 1.5rem;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+
+.dd__input__button{
+    background-color: rgb(72, 145, 145);
+    border-color: rgb(72, 145, 145);
+    color: #fff;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    width: 100%;
+    margin: 0.5rem;
+}
+.dd__input__button:hover{
+    background-color: #3c7091;
+    opacity: 0.7;
+}
+
+.divOrderSumary{
+    background-color: #ebebeb;
+    width: 30%;
+    height: 350px;
+}
+.divOrderSumary__div{
+    background-color: #fff;
+    width: 90%;
+    margin: 0 auto; 
+}
+
+.hr__order{
+    width: 80%;
+    margin: auto;
+}
+.divOrderSumary__hr{
+    width: 90%;
+    margin: auto; 
+}
+.divOrderSumary{
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+.divOrderSumary p{
+    padding: 1rem;
+    color: rgb(92, 91, 91);
+    text-align: inherit;
+    font-size: 14px;
+}
+
+.divOrderSumary h3{
+    padding: 1rem;
+}
+
+.noSelected{
+    color: #d9d9d9;
+    font-weight: bold;
+}
+.noSelected{
+    display: none;
+}
+
+.noSelected .spanCircle{
+    background-color: #d9d9d9;
+    opacity: 0.8;
+}
+
+.sumaryDiv__spanTotal{
+    color: black;
+    font-weight: bold;
+}
+
+
+@media screen and (min-width: 767px){
+    .breadcrumb p{
+        display: inline;
+        padding: 1rem;
+    }
+    .divForm{
+        width: 55%;
+    }
+    .form__title{
+        text-align: initial;
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    .divOrderSumary{
+       display: inline; 
+    }
+    .divDeliveryDetails__divDetails{
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+    }
+}

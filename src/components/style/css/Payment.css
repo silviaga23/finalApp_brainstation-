@@ -1,0 +1,128 @@
+.divForm{
+    padding: 2rem;
+    width: 100%;
+}
+.divForm h2{
+    margin-bottom: 1rem; 
+}
+.divForm input{
+    width: 100%;
+    padding: 0.3rem;
+    margin-bottom: 2rem;
+}
+
+.divForm__div__input{
+    display: flex;
+    padding: 0;
+}
+
+.divForm__div__input__date input{
+    
+    margin-right: 0.1rem;
+    width: 90%;
+}
+
+.divForm__div__input__security input{
+    width: 100%;
+}
+.divForm__div__input__security input{
+    width: 100%;
+}
+
+.divForm__divButton{
+    background-color: #3e8cbb;
+    border-color: #3e8cbb;
+    color: #fff;
+    margin-bottom: 0.5rem;
+    padding: 10px 10px;
+    font-size: 1rem;
+    border-radius: 2px;
+}
+
+
+
+.divOrderConfirmation__hr{
+    width: 90%;
+    margin: auto; 
+}
+.divOrderConfirmation{
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+.divConfirmation{
+    margin: 0 auto;
+    margin-top: 3rem; 
+}
+.divOrderConfirmation p{
+    padding: 1rem;
+    color: rgb(92, 91, 91);
+    text-align: inherit;
+    font-size: 14px;
+}
+
+.divOrderConfirmation h3{
+    padding: 1rem;
+}
+
+
+.divOrderConfirmation{
+    
+    background-color: #ebebeb;
+    width: 80%;
+    height: 350px;
+    margin: 0 auto;
+}
+.divOrderConfirmation__div{
+    background-color: #fff;
+    width: 90%;
+    margin: 0 auto; 
+}
+
+.divConfirmation__inputBut{
+    width: 100%;
+    text-align: center;
+}
+.btn-confirmation{
+    width: 80%;
+    margin-top: 1rem;
+}
+
+@media screen and (min-width: 767px){
+    .divOrderConfirmation__hr{
+        width: 90%;
+        margin: auto; 
+    }
+    .divOrderConfirmation{
+        margin-top: 5rem;
+        margin-left: 3rem;
+    }
+    .divConfirmation{
+        margin: 0 auto;
+    }
+    .divOrderConfirmation p{
+        padding: 1rem;
+        color: rgb(92, 91, 91);
+        text-align: inherit;
+        font-size: 14px;
+    }
+
+    .divOrderConfirmation h3{
+        padding: 1rem;
+    }
+
+
+    .divOrderConfirmation{
+        background-color: #ebebeb;
+        width: 30%;
+        height: 350px;
+        margin: 0 auto;
+    }
+    .divOrderConfirmation__div{
+        background-color: #fff;
+        width: 90%;
+        margin: 0 auto; 
+    }
+    .btn-confirmation{
+        width: 30%;
+    }
+}

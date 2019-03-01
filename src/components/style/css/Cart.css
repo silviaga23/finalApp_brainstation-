@@ -1,0 +1,205 @@
+.divCart__divTitle{
+
+    width: 100%;
+    background-color: black;
+    color: beige;
+    padding: 1.5rem;
+}
+
+.divTitle__p{
+    width: 80%;
+    margin: 0 auto;
+}
+.divCart__table{
+    border-bottom: 1px solid #e5e5e5;
+    border-top: 1px solid #fff;
+    padding: 15px 25px;
+}
+.divCart__table td{
+    padding: 5px;
+}
+.table__select{
+    height: 34px;
+    padding: 6px 12px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+.divButtons__btnCheckOut{
+    width: 100%;
+    background-color: #3e8cbb;
+    border-color: #3e8cbb;
+    color: #fff;
+    padding: 8px 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.3;
+    white-space: nowrap;
+    border-radius: 0;
+    margin-bottom: 0.5rem;
+}
+.divButtons__btnCheckOut:hover{
+    background-color: #3c7091;
+    opacity: 0.7;
+}
+
+.divButtons__btnContinue{
+    width: 100%;
+    background-color: transparent;
+    border: 2px solid #555;
+    color: #555;
+    padding: 8px 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.3;
+    white-space: nowrap;
+    margin-bottom: 1rem;
+}
+
+.table__button{
+    border: none;
+    background-color: white;
+    color: red;
+    cursor: pointer;
+}
+
+.divCart__table{
+   
+    margin: 0 auto;
+    padding: 1rem;
+
+}
+.table__trProduct{
+    text-align: initial;
+    padding: 0.5rem;
+}
+
+.divCart__table__tdImg{
+    width: 90%;
+}
+.tdImg__img{
+    width: 100%;
+}
+.table__trashIcon{
+    cursor: pointer;
+}
+
+.table__tdProduct__anchor{
+
+    text-decoration: none;
+    color: #3e8cbb;
+    cursor: pointer;
+    letter-spacing: 1px; 
+}
+
+.divCart__divSubtotal{
+    display: flex;
+    justify-content: space-between;
+}
+
+.divCart__divSubtotal{
+    text-align: end; 
+}
+
+.divCart__divSubtotal p {
+    padding: 0.2rem;
+}
+
+.divCart__table__tdImg{
+    width: 100%;
+    padding: 1rem;
+}
+.tdImg__img{
+    width: 100%;
+    height: 100%;
+}
+
+.cardProduct__p{
+    width: 100%;
+    font-weight: 100;
+    padding: 1rem;
+}
+.table__cardProduct{
+    width: 80%;
+    margin-right: auto;
+}
+.divCart__content{
+    width: 80%;
+    margin: auto;
+    margin-top: 1rem; 
+}
+
+.divButtons__btnCheckOut{
+    margin-bottom: 200px;
+}
+.divCart__divButtons{
+    margin-top: 1rem;
+}
+
+.btn__emptyCart{
+    width: 30%;
+    background-color: #3e8cbb;
+    color: #fff;
+    padding: 8px 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.3;
+    white-space: nowrap;
+    margin-bottom: 1rem; 
+    text-align: center ; 
+}
+.divEmptyCart{
+    width: 100%;
+}
+.div__emptyCart{
+    
+    width: 40% ;
+    margin: 0 auto; 
+    margin-top: 7rem;
+}
+.btn__emptyCart:hover{
+    background-color: #3c7091;
+    opacity: 0.7; 
+}
+
+@media screen and (min-width: 767px){
+    
+    .divCart__table{
+        width: 85%;
+    }
+    .table__cardProduct{
+        width: 220px;
+        height: 250px;
+        padding: 0.5rem;
+    }
+    
+    .divCart__divSubtotal{
+        width: 100%;
+        justify-content: flex-end;
+        margin-top: 1rem;
+    }
+
+    .divCart__divButtons{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: auto;
+        margin-top: 0;
+        
+    }
+
+    .divButtons__btnCheckOut{
+        width: 25%;
+        margin-top: 0.5rem;
+    }
+    .divButtons__btnContinue{
+        width: 25%;
+        visibility: hidden;
+    }
+    
+}
+
+.divCart__hr{
+    color: #3e8cbb;
+}
